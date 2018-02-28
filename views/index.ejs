@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Codeshala IDE | Code, Compile, Run</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link href="assets/css/main.css" rel="stylesheet">
+	<!--Meta Data-->
+	<!-- for Google -->
+	<meta name="description" content="We are community of programmers. Our community is lead by professionals who have broad experience in competitve programming and software development. Our community mentors are working at top companies and providing mentorship to candidates across different colleges." />
+	<meta name="keywords" content="codeshala,ide" />
+	<meta name="author" content="ide.Codeshala.Org" />
+	<meta name="copyright" content="vipin@codeshala.org" />
+	<meta name="application-name" content="Codeshala" />
+	<!-- for Facebook -->
+	<meta property="og:url"                content="http://ide.codeshala.org" />
+	<meta property="og:type"               content="article" />
+	<meta property="og:title"              content="Codeshala IDE | Code, Compile, Run" />
+	<meta property="og:description"        content="We are community of programmers. Our community is lead by professionals who have broad experience in competitve programming and software development. Our community mentors are working at top companies and providing mentorship to candidates across different colleges." />
+	<meta property="og:site_name"          content="Codeshala IDE | Code, Compile, Run" />
+	<meta property="og:image"              content="https://s3-eu-west-1.amazonaws.com/codeshala.org/assets/cover-image.jpg" />
+	<!-- for Twitter -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Codeshala IDE | Code, Compile, Run" />
+	<meta name="twitter:description" content="e are community of programmers. Our community is lead by professionals who have broad experience in competitve programming and software development. Our community mentors are working at top companies and providing mentorship to candidates across different colleges." />
+	<meta name="twitter:image" content="https://s3-eu-west-1.amazonaws.com/codeshala.org/assets/cover-image.jpg" />
+	<!-- Favicon and app icon settings -->
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="assets/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#f3f3f3">
+	<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#f3f3f3">
+
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a class="navbar-brand" href="/">
+				<img class="codeshala-logo" src="assets/images/site_logo.png"> IDE
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+				<ul class="navbar-nav justify-content-end">
+					<li class="nav-item active">
+						<a class="nav-link" href="#"> New Code <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"> API </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"> Help </a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+
+				<div class="row cs-color">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 code-toolbar">
+						<select class="custom-select float-left" id="selectLanguage">
+							<option value="c" selected>C</option>
+							<option value="c++">C++</option>
+						</select>
+						<select class="custom-select float-right" id="selectTheme">
+							<option value="default" selected>Default Theme</option>
+							<option value="twilight">Twilight</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<pre id="editor" style="left:0;right:0;"></pre>
+					</div>
+				</div>
+				<div class="row bg-white">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 code-toolbar">
+						<input type="checkbox" value="" id="checkCustomInput">
+						<label for="checkCustomInput">
+							Use custom input
+						</label>
+						<button type="button" class="btn btn-secondary float-right" id="runCodeBtn"><i class="fa fa-cogs"></i> Run</button>
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 code-toolbar" id="customInputDiv">
+						<div class="form-group">
+							<label for="usersSTDIN">STDIN</label>
+							<textarea class="form-control" id="usersSTDIN" rows="3"></textarea>
+						</div>  					
+					</div>
+				</div>
+				<div class="row bg-white" id="divOutput">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 code-toolbar">
+						<strong>OUTPUT</strong>
+						<hr>
+						<div id="stdout">
+							
+						</div>
+						<br/>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+				..
+
+			</div>
+		</div>
+	</div>
+	<footer class="ide-footer">
+		<div class="container-fluid cs-color ide-footer-container">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+						<h3>About Codeshala IDE</h3>
+						<hr>
+						<p>Some text here..</p>
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+						<h3>Contribute</h3>
+						<hr>
+						<p>Some text here..</p>
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+						<h3>Social</h3>
+						<hr>
+						<p>Some text here..</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+						<hr>
+						&copy; 2017 Honeybyte 
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/bc4369196c.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.3.1/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.3.1/ext-language_tools.js" type="text/javascript"></script>
+<script src="/assets/js/init.js"></script>
+</html>
