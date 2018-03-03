@@ -5,7 +5,7 @@
 
 ### Hosting Server
 
-* Staging Server: [HEROKU](heroku.com)
+* Staging Server: [HEROKU](ide-codeshala.herokuapp.com)
 * Production Server : [AWS](amazonaws.com)
 
 
