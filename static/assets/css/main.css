@@ -1,0 +1,30 @@
+body{
+	background-color: #f3f3f3;
+}
+nav{
+	background-color: #323754;
+}
+.cs-color{
+	background-color: #323754;
+}
+.container{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.codeshala-logo{
+	 width:200px;
+	 height: 40px;
+}
+#editor {
+	min-height: 500px;
+}
+.code-toolbar{
+	padding:10px;
+}
+.ide-footer-container{
+	color:#fff;
+	padding:15px;
+}
+.ide-footer-container hr{
+	background-color:#fff;
+}
