@@ -4,7 +4,7 @@ var compile_run = require('compile-run');
 var app = express();
 
 
-app.use(express.static('public'));
+app.use(express.static('static'));
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: false }))
 
