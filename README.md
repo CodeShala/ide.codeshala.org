@@ -3,6 +3,7 @@
 [![dependencies Status](https://david-dm.org/CodeShala/ide.codeshala.org/status.svg)](https://david-dm.org/CodeShala/ide.codeshala.org)
 [![Maintainability](https://api.codeclimate.com/v1/badges/4ea2467f9fc8eb0d080e/maintainability)](https://codeclimate.com/github/CodeShala/ide.codeshala.org/maintainability)
 [![Known Vulnerabilities](https://snyk.io/test/github/codeshala/ide.codeshala.org/badge.svg?targetFile=package.json)](https://snyk.io/test/github/codeshala/ide.codeshala.org?targetFile=package.json)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/33792bf234d74799b699a6ca08ce17a7)](https://www.codacy.com/app/vipinkhushu/ide.codeshala.org?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=CodeShala/ide.codeshala.org&amp;utm_campaign=Badge_Grade)
 [![CODESHALA](http://codeshala.org/assets/images/site_logo.png)](http://codeshala.org/assets/images/site_logo.png)
 
 
