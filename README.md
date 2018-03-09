@@ -1,4 +1,5 @@
 # ide.Codeshala.org | Code Compile IDE of codeshala 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/55d4150f3c1a43618d4136b6b73effcc)](https://app.codacy.com/app/vipinkhushu/ide.codeshala.org?utm_source=github.com&utm_medium=referral&utm_content=CodeShala/ide.codeshala.org&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/CodeShala/ide.codeshala.org.svg?branch=master)](https://travis-ci.org/CodeShala/ide.codeshala.org)
 [![dependencies Status](https://david-dm.org/CodeShala/ide.codeshala.org/status.svg)](https://david-dm.org/CodeShala/ide.codeshala.org)
 [![Maintainability](https://api.codeclimate.com/v1/badges/4ea2467f9fc8eb0d080e/maintainability)](https://codeclimate.com/github/CodeShala/ide.codeshala.org/maintainability)
