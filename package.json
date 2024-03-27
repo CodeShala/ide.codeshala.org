@@ -27,6 +27,6 @@
     "body-parser": "1.18.2",
     "compile-run": "1.2.2",
     "ejs": "2.5.7",
-    "express": "4.16.2"
+    "express": "4.19.2"
   }
 }
